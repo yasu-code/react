@@ -18,7 +18,7 @@ body {
 }
 
 .Container {
-  width: 330px;
+  width: 340px;
   margin: 20px auto;
 }
 
@@ -39,4 +39,11 @@ body {
   user-select: none;
   border-radius: 5px;
   margin: 0 5px 10px;
+}
+
+.Container div {
+  text-align: right;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
 }

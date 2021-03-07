@@ -7,13 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-      <div className="Container">
-        <ul>
-          <Counter color="tomato" />
-          <Counter color="skyblue" />
-          <Counter color="limegreen" />
-        </ul>
-      </div>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
